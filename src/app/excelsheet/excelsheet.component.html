@@ -69,7 +69,7 @@
         <col style="width:50px">
         <col style="width:50px">
         <col style="width:200px">
-        <col style="width:200px">
+        <col style="width:100px">
         <col style="width:100px">
         <col style="width:100px">
         <col style="width:100px">
@@ -90,6 +90,8 @@
             <th>Cliente_Lec</th>
             <th style="width:8%">t_Anteri</th>
             <th style="width:8%">Lect_Actual</th>
+            
+            <th style="width:8%">Codigo</th>
             <th>EDIT</th>
         </tr>
     </ng-template>
@@ -120,6 +122,8 @@
             <TD>{{corte.Cliente_Lec}}</TD>
             <td>{{corte.t_Anteri}}</td>
             <td>{{corte.Lect_Actual}}</td>
+            
+            <td>{{corte.Codigo}}</td>
             <td style="text-align: center">
                 <button pButton type="button" class="p-button-secondary" icon="pi pi-pencil" (click)="showBasicDialog(corte)"></button>
             </td>
