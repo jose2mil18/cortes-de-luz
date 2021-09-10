@@ -1,0 +1,8 @@
+  
+    .p-datatable-responsive-demo .p-datatable-tbody > tr > td .p-column-title {
+        display: none;
+    }
+.tablehor{
+    overflow-x: auto;
+}
+@import "~@ng-select/ng-select/themes/default.theme.css";
