@@ -67,32 +67,32 @@
 <ng-template pTemplate="colgroup" let-columns>
     <colgroup>
         <col style="width:50px">
-        <col style="width:50px">
         <col style="width:200px">
-        <col style="width:100px">
+        <col style="width:200px">
+        <col style="width:150px">
         <col style="width:100px">
         <col style="width:100px">
         <col style="width:100px">
         <col style="width:90px">
         <col style="width:90px">
-        <col style="width:50px">
+        <col style="width:90px">
     </colgroup>
 </ng-template>
 <ng-template pTemplate="header">
         <tr>
-            <th style="width: 6%;">#</th>
+            <th >#</th>
             
-            <th style="width: 6%;">Ruta</th>
+            <th >Ruta</th>
             <th>Nombre</th>
             <th>Categoria</th>
             <th>Medidor</th>
             <th>Orden</th>
             <th>Cliente_Lec</th>
-            <th style="width:8%">t_Anteri</th>
-            <th style="width:8%">Lect_Actual</th>
+            <th >t_Anteri</th>
+            <th >Lect_Actual</th>
             
-            <th style="width:8%">Codigo</th>
-            <th>EDIT</th>
+            <th >Codigo</th>
+            <th >EDIT</th>
         </tr>
     </ng-template>
     <ng-template pTemplate="caption">
@@ -124,7 +124,7 @@
             <td>{{corte.Lect_Actual}}</td>
             
             <td>{{corte.Codigo}}</td>
-            <td style="text-align: center">
+            <td >
                 <button pButton type="button" class="p-button-secondary" icon="pi pi-pencil" (click)="showBasicDialog(corte)"></button>
             </td>
            
